@@ -1,0 +1,7 @@
+# See https://pre-commit.com for more information
+-   id: shellcheck
+    name: shellcheck shell scripts
+    description: Validate shell scripts with shellcheck running with system shellcheck command
+    language: system
+    entry: shellcheck
+    types: [shell]
